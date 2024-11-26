@@ -1,0 +1,13 @@
+name: F workflow
+on: workflow_dispatch
+jobs: 
+  f-job:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Print greeting
+         run: echo "Hello There!"
+       - name: Print goodbye
+         run: echo "Done - bye!"
+       
+      
+    
